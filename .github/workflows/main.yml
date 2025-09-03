@@ -20,7 +20,7 @@
               distribution: 'temurin'
 
           - name: Build with Maven
-            run: mvn clean install
+            run: mvn clean package
 
           - name: Test with Maven
             run: mvn test
